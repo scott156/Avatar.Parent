@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>jia.su</Authors>
+    <Description>Avatar Project References
+Framework Bom
+Avatar Dal Entities
+Avatar Common</Description>
+    <PackageReleaseNotes>Upgrade dal entities</PackageReleaseNotes>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
+    <Version>1.0.7</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avatar.Common" Version="1.0.0" />
+    <PackageReference Include="Avatar.Dal.Entity" Version="1.0.4" />
+    <PackageReference Include="XFramework.Bom" Version="1.0.5" />
+  </ItemGroup>
+
+</Project>
