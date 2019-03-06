@@ -5,17 +5,19 @@
     <Authors>jia.su</Authors>
     <Description>Avatar Project References
 Framework Bom
-Avatar Dal Entities
+Avatar dal entities
+Avatar Soa clients
 Avatar Common</Description>
-    <PackageReleaseNotes>Upgrade dal entities</PackageReleaseNotes>
-    <AssemblyVersion>1.0.7.0</AssemblyVersion>
-    <Version>1.0.7</Version>
+    <PackageReleaseNotes>Upgrade soa and framework bom version</PackageReleaseNotes>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <Version>1.0.9</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Avatar.Common" Version="1.0.0" />
     <PackageReference Include="Avatar.Dal.Entity" Version="1.0.4" />
-    <PackageReference Include="XFramework.Bom" Version="1.0.5" />
+    <PackageReference Include="Avatar.Soa.Client" Version="1.0.2" />
+    <PackageReference Include="XFramework.Bom" Version="1.0.7" />
   </ItemGroup>
 
 </Project>
