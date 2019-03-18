@@ -8,15 +8,15 @@ Framework Bom
 Avatar dal entities
 Avatar Soa clients
 Avatar Common</Description>
-    <PackageReleaseNotes>Upgrade soa and framework bom version</PackageReleaseNotes>
-    <AssemblyVersion>1.0.9.0</AssemblyVersion>
-    <Version>1.0.9</Version>
+    <PackageReleaseNotes>Upgrade soa component, add pdf service</PackageReleaseNotes>
+    <AssemblyVersion>1.0.10.0</AssemblyVersion>
+    <Version>1.0.10</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Avatar.Common" Version="1.0.0" />
     <PackageReference Include="Avatar.Dal.Entity" Version="1.0.4" />
-    <PackageReference Include="Avatar.Soa.Client" Version="1.0.2" />
+    <PackageReference Include="Avatar.Soa.Client" Version="1.0.3" />
     <PackageReference Include="XFramework.Bom" Version="1.0.7" />
   </ItemGroup>
 
