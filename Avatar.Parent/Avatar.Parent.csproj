@@ -9,14 +9,14 @@ Avatar dal entities
 Avatar Soa clients
 Avatar Common</Description>
     <PackageReleaseNotes>Upgrade dal</PackageReleaseNotes>
-    <AssemblyVersion>1.1.21.0</AssemblyVersion>
-    <Version>1.1.21</Version>
-    <FileVersion>1.1.21.0</FileVersion>
+    <AssemblyVersion>1.1.30.0</AssemblyVersion>
+    <Version>1.1.32</Version>
+    <FileVersion>1.1.30.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Avatar.Common" Version="1.0.0" />
-    <PackageReference Include="Avatar.Dal.Entity" Version="1.1.11" />
+    <PackageReference Include="Avatar.Dal.Entity" Version="1.1.21" />
     <PackageReference Include="Avatar.Soa.Client" Version="1.0.6" />
     <PackageReference Include="XFramework.Bom" Version="1.0.9" />
   </ItemGroup>
