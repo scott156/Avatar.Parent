@@ -8,17 +8,17 @@ Framework Bom
 Avatar dal entities
 Avatar Soa clients
 Avatar Common</Description>
-    <PackageReleaseNotes>Upgrade dal</PackageReleaseNotes>
-    <AssemblyVersion>1.1.30.0</AssemblyVersion>
-    <Version>1.1.32</Version>
-    <FileVersion>1.1.30.0</FileVersion>
+    <PackageReleaseNotes>Upgrade framework bom</PackageReleaseNotes>
+    <AssemblyVersion>1.1.34.0</AssemblyVersion>
+    <Version>1.1.36</Version>
+    <FileVersion>1.1.34.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Avatar.Common" Version="1.0.0" />
-    <PackageReference Include="Avatar.Dal.Entity" Version="1.1.21" />
+    <PackageReference Include="Avatar.Dal.Entity" Version="1.1.24" />
     <PackageReference Include="Avatar.Soa.Client" Version="1.0.6" />
-    <PackageReference Include="XFramework.Bom" Version="1.0.9" />
+    <PackageReference Include="XFramework.Bom" Version="1.0.10" />
   </ItemGroup>
 
 </Project>
